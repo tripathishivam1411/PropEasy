@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev":"nodemon api/index.js",
+    "dev": "nodemon api/index.js",
     "start": "node api/index.js"
   },
   "repository": {
@@ -16,7 +16,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^18.0.5",
     "express": "^5.2.1",
-    "nodemon": "^3.1.14"
-  }
+    "mongodb": "^7.7.0",
+    "mongoose": "^9.11.0",
+    "nodemon": "^1.14.10"
+  },
+  "bugs": {
+    "url": "https://github.com/tripathishivam1411/PropEasy/issues"
+  },
+  "homepage": "https://github.com/tripathishivam1411/PropEasy#readme"
 }
